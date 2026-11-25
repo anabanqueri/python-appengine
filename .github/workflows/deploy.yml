@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PROJECT_ID: lab10-515708
+  PROJECT_ID:  ${{ vars.GCP_PROJECT_ID }}
 
 jobs:
   deploy:
